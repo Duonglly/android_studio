@@ -206,9 +206,9 @@ InputStream is = assetManager.open("data.json");
 
 ---Tiết kiệm chi phí vận hành Server lưu trữ dữ liệu cho lập trình viên.
 
-## II. Hướng dẫn thực hành Bài tập lớn 2 trên Android Studio
+## II. App 1 thực hành Bài tập 2 trên Android Studio
 
---Đề tài : Smart Assistant Pro (Trợ lý Sinh viên Thông minh)
+## Đề tài : Smart Assistant Pro (Trợ lý Sinh viên Thông minh)
 
 --Ứng dụng thực tế của Assets: Đọc một file cấu hình JSON chứa thông tin sinh viên offline từ thư mục assets, xử lý hiển thị lên màn hình chính.
 
@@ -668,21 +668,19 @@ public class WebActivity extends AppCompatActivity {
 }
 
 Activity 1 (MainActivity - About): Đã có thông tin sinh viên (đọc từ file JSON trong Assets) và 2 nút bấm để chuyển sang màn hình Giải toán và màn hình WebView.
-<img width="1635" height="995" alt="image" src="https://github.com/user-attachments/assets/03d7aa00-14d9-4ec6-9c05-fd87e9ba9111" />
 
+<img width="1623" height="919" alt="image" src="https://github.com/user-attachments/assets/30bedda1-0c70-4ec0-91cf-780fb5b39ff0" />
 
 Activity 2 (MathActivity - Giải toán):Giải phương trình bậc nhất ax + b = 0.
 
 Gửi API: Sử dụng POST gửi dữ liệu lên https://k58kmt.tdh.io.vn/api/ ngay sau khi giải xong.
 
 <img width="1632" height="1022" alt="image" src="https://github.com/user-attachments/assets/854a1971-033f-4355-b5e1-0019145e78dd" />
-<img width="1623" height="919" alt="image" src="https://github.com/user-attachments/assets/30bedda1-0c70-4ec0-91cf-780fb5b39ff0" />
 
 Sử dụng WebView để truy cập link kèm mã sinh viên chính xác: https://k58kmt.tdh.io.vn?masv=K225480106045.
 <img width="1623" height="420" alt="image" src="https://github.com/user-attachments/assets/f553344d-446d-4469-a8cf-80a5e2e89ac7" />
-## Làm app2 Sinh tồn khi bị mắc kẹt trong rừng sâu
+## III. Làm app2 Sinh tồn khi bị mắc kẹt trong rừng sâu
 
-### 
 Vấn đề đặt ra: Khi bị lạc trong rừng sâu, điện thoại sẽ bị mất sóng hoàn toàn (offline), không thể tra Google hay dùng 4G/5G. Người lạc cần một ứng dụng có sẵn dữ liệu cứu hộ khẩn cấp bên trong máy để cứu mạng.
 
 Đặc thù dữ liệu: Dữ liệu là văn bản thô (Plain Text), được chuẩn bị trước mã hóa theo chuẩn UTF-8 (để hiển thị đúng tiếng Việt có dấu) lưu trong file sinhton.txt thuộc thư mục Assets.
